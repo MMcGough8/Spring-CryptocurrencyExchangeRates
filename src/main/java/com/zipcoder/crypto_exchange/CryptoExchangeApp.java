@@ -1,4 +1,4 @@
-package com.zipcoder.cryptonator_api;
+package com.zipcoder.crypto_exchange;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class MainApplication {
+public class CryptoExchangeApp {
     public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class, args);
+        SpringApplication.run(CryptoExchangeApp.class, args);
     }
 
 
